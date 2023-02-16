@@ -1,0 +1,55 @@
+.logo-img img {
+    width: 20px;
+    height: 20px;
+}
+
+.user-logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.top-left-con {
+    text-align: center;
+    border: solid 1px rgb(129, 129, 129);
+    border-radius: 5px;
+}
+
+.top-right {
+    text-align: center;
+    border: solid 1px rgb(129, 129, 129);
+    border-radius: 5px;
+}
+
+.bl-con-1,
+.bl-con-2,
+.bl-con-3 {
+    border: solid 1px rgb(129, 129, 129);
+    border-radius: 5px;
+}
+
+.bl-con-1 {
+    padding: 18px;
+}
+
+.che-cl {
+    text-align: left;
+}
+
+.bg-light {
+    margin-top: 18px;
+}
+
+.footer {
+    text-align: center;
+    /* margin: 10px; */
+
+}
+
+.user-detail {
+    width: 80px;
+}
+
+.bl-con-2 img {
+    width: 20px;
+    height: 20px;
+}
