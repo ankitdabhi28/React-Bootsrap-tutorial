@@ -1,4 +1,3 @@
-
 // import Table1 from "./Component/Table1";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,7 +8,6 @@ import Table1 from "./Component/Table1";
 import Header from "./Component/Header";
 import Footer from "./Component/Footer";
 import UserData from "./Component/UserData";
-
 
 function App() {
   return (
@@ -24,7 +22,6 @@ function App() {
         </Route>
       </Routes>
       <Footer />
-
     </div>
   );
 }

@@ -33,7 +33,7 @@ function Table1() {
                             1
                         </th>
                         <td>
-                            Mark
+                            Marks.
                         </td>
                         <td>
                             Otto

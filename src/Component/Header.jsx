@@ -7,7 +7,7 @@ function Header() {
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
             <div className="container-fluid">
                 <NavLink className="navbar-brand logo-img" to="/"
-                ><img src={require('./pngwing.png')} alt="" /></NavLink>
+                ><img src={require('./pngwing.png')} alt="userPng" /></NavLink>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -24,12 +24,6 @@ function Header() {
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/UserData" >UserData</NavLink>
                         </li>
-                        {/* <li className="nav-item">
-                            <a className="nav-link" >Link</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" >Link</a>
-                        </li> */}
                     </ul>
                     <form className="d-flex">
                         <input className="form-control me-2" type="text" placeholder="Search" />
