@@ -1,8 +1,12 @@
 import { Table } from "reactstrap";
+// import Header from "./Header";
 function Table1() {
 
     return (
-        <div>
+        <div className="p-4">
+
+            {/* <Header /> */}
+
             <Table
                 bordered
                 hover

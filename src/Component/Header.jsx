@@ -1,12 +1,13 @@
+import { NavLink } from "react-router-dom";
 function Header() {
 
     return (
 
+
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
             <div className="container-fluid">
-                <a className="navbar-brand logo-img" href="./pngwing.png"
-                ><img src={require('./pngwing.png')} alt=""
-                    /></a>
+                <NavLink className="navbar-brand logo-img" to="/"
+                ><img src={require('./pngwing.png')} alt="" /></NavLink>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -18,14 +19,17 @@ function Header() {
                 <div className="collapse navbar-collapse" id="mynavbar">
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href>Table  </a>
+                            <NavLink className="nav-link" to="/Table" >Table</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href>Link</a>
+                            <NavLink className="nav-link" to="/UserData" >UserData</NavLink>
+                        </li>
+                        {/* <li className="nav-item">
+                            <a className="nav-link" >Link</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href>Link</a>
-                        </li>
+                            <a className="nav-link" >Link</a>
+                        </li> */}
                     </ul>
                     <form className="d-flex">
                         <input className="form-control me-2" type="text" placeholder="Search" />
