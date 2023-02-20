@@ -62,7 +62,7 @@ function Section1() {
                                 id="check2"
                                 value="something"
                             />
-                            <label className="form-check-label" for="check2"
+                            <label className="form-check-label" htmlFor="check2"
                             >Check And Submit</label
                             >
                         </div>

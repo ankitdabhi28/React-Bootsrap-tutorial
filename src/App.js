@@ -1,4 +1,3 @@
-// import Table1 from "./Component/Table1";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Style.css";
@@ -18,7 +17,11 @@ function App() {
         <Route path="/">
           <Route index element={<HomePg />} />
           <Route path="Table" element={<Table1 />} />
-          <Route path="UserData" element={<UserData />}></Route>
+          <Route path="UserData" element={<UserData />} />
+        </Route>
+
+        <Route path="/Table">
+          <Route path="UserData" element={<UserData />} />
         </Route>
       </Routes>
       <Footer />
